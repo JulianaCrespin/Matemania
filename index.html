@@ -27,10 +27,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-4 mb-lg-0"> <!--para cambia que la navbar este centrada a la derecha cambaiamos el me-auto a un ms-auto -->
               <li class="nav-item">
-                <a class="nav-link" href="#">Inicio</a>
+                <a class="nav-link" href="/index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a>
+                <a class="nav-link" href="/productos.html">Productos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/Matemania/Contacto.html">Contacto</a>
@@ -66,62 +66,11 @@
       </nav>
     </header>
     <main>
-      <div class="b-example-divider"></div>
-      <!-- Pop up 
-        El pop up temporalmente funciona con un boton se tiene que cambiar,
-        para que aparezca cuando se abre la pagina
-      -->
-      <section>
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aaaa">
-          Boton lanzador popup
-        </button>
-      
-        <!-- Modal -->
-        <div class="modal" id="aaaa" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle"> Unite a la comunidad MateMania y recibi un 15% de descuento</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <form>
-                <div class="form-group">
-                  <label for="exampleInputEmail1"></label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electronico">
-                </div>
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Si, soy mayor de 18</label>
-                </div>
-                <div class="form-group">
-                  <label for="exampleFormControlSelect1">Sexo</label>
-                  <select class="form-control" id="exampleFormControlSelect1">
-                    <option>Seleccionar</option>
-                    <option>Hombre</option>
-                    <option>Mujer</option>
-                    <option>Prefiero no decirlo</option>
-                  </select>
-                </div>
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Segustaria recibir noticias sobre nuestros productos.</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Suscribirse</button>
-              </form>
-            </div>
-          </div>
-        </div>
-        </div>
-      </section>
       
       <div class="b-example-divider"></div>
       
       <!-- Carusel para de la pagina-->
-      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div id="myCarousel" class="carousel-slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -178,66 +127,211 @@
 
     <div class="b-example-divider"></div>
 
-  </main>
-  <footer>
-    <div class="container">
-      <footer class="py-5">
-        <div class="row">
-          <div class="col-2">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-            </ul>
+    <section>
+      <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row row-cols-4 row-cols-md-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="assets/mate_messi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="assets/mate_messi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="assets/mate_messi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="assets/mate_messi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row row-cols-4 row-cols-md-4 g-3">
+                <div class="col">
+                  <div class="card">
+                    <img src="assets/mate_messi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="assets/mate_messi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="assets/mate_messi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="assets/mate_messi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <div class="b-example-divider"></div>
+    <!-- Pop up 
+      El pop up temporalmente funciona con un boton se tiene que cambiar,
+      para que aparezca cuando se abre la pagina
+    -->
+    <section>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aaaa">
+        Boton lanzador popup
+      </button>
     
-          <div class="col-2">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-            </ul>
+      <!-- Modal -->
+      <div class="modal" id="aaaa" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"> Unite a la comunidad MateMania y recibi un 15% de descuento</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
-    
-          <div class="col-2">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-            </ul>
-          </div>
-    
-          <div class="col-4 offset-1">
+          <div class="modal-body">
             <form>
-              <h5>Subscribe to our newsletter</h5>
-              <p>Monthly digest of whats new and exciting from us.</p>
+              <div class="form-group">
+                <label for="exampleInputEmail1"></label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electronico">
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Si, soy mayor de 18</label>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Sexo</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Seleccionar</option>
+                  <option>Hombre</option>
+                  <option>Mujer</option>
+                  <option>Prefiero no decirlo</option>
+                </select>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Segustaria recibir noticias sobre nuestros productos.</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Suscribirse</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="container-fluid py-5">
+    <div class="container">
+
+        <div class="row text-white">
+          <div class="col-2">
+            <h5>MENU</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Inicio</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Productos</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contacto</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sobre Nosotros</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cuida tu mate</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Preguntas</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Historia</a></li>
+            </ul>
+          </div>
+          <!--Sumar logos-->
+          <div class="col-2">
+            <h5>CONTACTANOS</h5>
+            <ul class="nav flex-column ">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">matemania@gmail.com</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">+54 9 11 1111 1111</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Direccion</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-2">
+            <h5>Redes</h5>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-light" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+              <li class="ms-3"><a class="link" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+            </ul>
+          </div>
+    
+          <div class="col-4 offset-1 ms-auto">
+            <form>
+              <h5>Se parte de la comunidad MateMania</h5>
+              <p>Vas a recibir noticias y descuestos sobre nosotros.</p>
               <div class="d-flex w-100 gap-2">
-                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <label for="newsletter1" class="visually-hidden">Direccion de mail</label>
                 <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
                 <button class="btn btn-primary" type="button">Subscribe</button>
               </div>
             </form>
           </div>
+
+          <div class="py-3 my-4 border-top">
+            <div class="py-3 my-4">
+              <p class="text-center text-white">&copy; 2021 Company, Inc. All rights reserved.</p>
+            </div>
+          </div>
         </div>
-    
-        <div class="d-flex justify-content-between py-4 my-4 border-top">
-          <p>&copy; 2021 Company, Inc. All rights reserved.</p>
-          <ul class="list-unstyled d-flex">
-            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-          </ul>
-        </div>
-      </footer>
     </div>
   </footer>
 
