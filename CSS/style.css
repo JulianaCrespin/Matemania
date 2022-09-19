@@ -1,8 +1,12 @@
+body {
+    margin: 0%;
+}
 
 #nav_menu {
     width: auto;
     height:auto;
 }
+
 #logazo_mate {
     width: 15%;
     height: 15%;
@@ -17,7 +21,7 @@
     vertical-align: -.125em;
     fill: currentColor;
 }
-
+/*Borrar esto cuando se termine la pagina*/
 .b-example-divider {
     height: 3rem;
     background-color: rgba(0, 0, 0, .1);
@@ -25,15 +29,23 @@
     border-width: 1px 0;
     box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
-/*items barra navegacion*/
-
-#navbar-brand {
-    align-items: center;
-    text-align: justify;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+/*Cambios en el footer para que sea negro*/
+footer{
+    background-color: black;
+    padding-top: 800px;
+    padding-bottom: 100px;
 }
-h1 {font-size: small;}
 
-body{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+#fotaza{
+    background-image: url('../assets/mate_messi.jpg');
+    width: 100%;
+    height: 100px;
+    background-size: coves;
+    background-position: top 80px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
