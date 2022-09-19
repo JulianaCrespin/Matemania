@@ -36,8 +36,8 @@ footer{
     padding-bottom: 100px;
 }
 
-#foto_tieza {
-    background-image: url(assets/mate_messi.jpg);
+#foto{
+    background-image: url('./assets/mate_messi.jpg');
     width: 100%;
     height: 100vh;
     background-size: coves;
