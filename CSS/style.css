@@ -21,31 +21,29 @@ body {
     vertical-align: -.125em;
     fill: currentColor;
 }
-/*Borrar esto cuando se termine la pagina*/
-.b-example-divider {
-    height: 3rem;
-    background-color: rgba(0, 0, 0, .1);
-    border: solid rgba(0, 0, 0, .15);
-    border-width: 1px 0;
-    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-}
-/*Cambios en el footer para que sea negro*/
+
 footer{
-    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(50, 63, 28);
     padding-top: 800px;
     padding-bottom: 100px;
 }
 
-#fotaza{
-    background-image: url('../assets/mate_messi.jpg');
-    width: 100%;
-    height: 100px;
-    background-size: coves;
-    background-position: top 80px center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+#confiar{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
 }
+#titulo_redes{
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+#redes_footer{
+    filter: brightness(1.1);
+    mix-blend-mode:lighten;
+    margin-top: 0px;
+    /* buscar la forma de redondear los bordes de las imagenes*/
+}
+
