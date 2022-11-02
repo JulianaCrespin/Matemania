@@ -1,8 +1,7 @@
-body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* PARA TODAS LAS PAGINAS */
+#barra_nav {
+    margin-bottom: 20px;
 }
-/* PAGINA INDEX */
-
 #nav_menu {
     width: auto;
     height:auto;
@@ -13,23 +12,8 @@ body{
     margin-left: 80px;
 }
 
-#carousel {
-    width: auto;
-   
-}
-
-#productos {
-    margin-top: 10px;
-}
-
-#confiar{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    text-align: center;
-}
-#titulo_confiar {
-    text-align: center;
-    margin-top: 100px;
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #footer{
     color: white;
@@ -48,3 +32,52 @@ body{
     /* buscar la forma de redondear los bordes de las imagenes*/
 }
 
+
+/* PAGINA INDEX */
+
+#carousel {
+    width: auto;
+   
+}
+
+#productos_destacados {
+    margin-top: 10px;
+}
+
+#confiar{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    filter: brightness(1.1);
+}
+#titulo_confiar {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* PAGINA PRODUCTOS */
+
+#productos{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#consulta {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* PAGINA CONTACTO */
+
+#contactanos {
+    background-color: aliceblue;
+}
+
+/* PAGINA SOBRE NOSOTROS */
+#sobre_nosotros {
+    margin-bottom: 20px;
+}
+#quienes_somos {
+    text-align: center;
+    background-color: beige;
+}
