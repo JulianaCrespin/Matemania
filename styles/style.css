@@ -13,13 +13,15 @@
 }
 
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #footer{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+.ul{
+    color: white;
+}
 #titulo_redes{
     text-align: right;
     margin-bottom: 20px;
@@ -28,8 +30,9 @@ body{
 #redes_footer{
     filter: brightness(1.1);
     mix-blend-mode:lighten;
-    margin-top: 0px;
-    /* buscar la forma de redondear los bordes de las imagenes*/
+    margin-bottom: 50px;
+    border-radius: 20px;
+    align-content: right;
 }
 
 
@@ -76,8 +79,11 @@ body{
 /* PAGINA SOBRE NOSOTROS */
 #sobre_nosotros {
     margin-bottom: 20px;
+    text-align: justify;
 }
 #quienes_somos {
+    text-align: justify;
     text-align: center;
     background-color: beige;
 }
+#flores { text-align: center;}
